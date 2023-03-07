@@ -72,7 +72,7 @@ body{
 }
 
 .banner-academics{
-    width: auto;
+    width: 100%;
 }
 /* ACADEMICS BANNER*/
 .banner-academics-img {
@@ -96,7 +96,7 @@ body{
 }
 
 /* BANNER SECTION */
-.banner-img-conatiner{
+.banner-img-container{
     margin-top: 10px;
     display: flex;
     align-items: center;
