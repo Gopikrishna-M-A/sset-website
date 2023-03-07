@@ -92,12 +92,41 @@ body{
 
 /* CONTENT SECTION */
 .academics-intro{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 155px;
+    padding-right: 155px;
 }
 
 
+/* TAABLE SECTION */
 
+.styled-table {
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 150px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #969696;
+    color: #FFB17F;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    text-align: center;
+    border-top: 15px solid white;
+    background-color: #FFB17F;
+}
+
+.subdetails{
+    text-align: left;
+    background-color:white;
+}
 
 .content-wrapper{
     width: 100%;
