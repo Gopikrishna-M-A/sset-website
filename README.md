@@ -2,7 +2,7 @@
 
 **Getting started:**
 
-**1.Fork the repository:**Start by forking this repository to your own account, so you can make changes without affecting the original code.
+**1.Fork the repository:** Start by forking this repository to your own account, so you can make changes without affecting the original code.
 
 **2.Clone the repository:** Once you've forked the repository, clone it to your local machine so you can make edits.
 
