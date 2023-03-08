@@ -10,11 +10,9 @@ Getting started:
 
 4.Edit the HTML and CSS files: Use a code editor of your choice to edit the HTML and CSS files to fit SSET College's branding and content.
 
-5.Link new CSS files: If you need to create a new CSS file for a specific page, link it in the HTML file for that page. You can also use the default 
+5.Link new CSS files: If you need to create a new CSS file for a specific page, link it in the HTML file for that page. You can also use the default style.css file for all pages.
 
-6.style.css file for all pages.
-
-7.Preview the website: Open any HTML file in a web browser to preview the website.
+6.Preview the website: Open any HTML file in a web browser to preview the website.
 
 Directory Structure:
 
