@@ -19,9 +19,13 @@ Directory Structure:
 The template has a basic directory structure that you can follow to organize your files. Here is a brief description of the directories and files in this template:
 
 1.images/: This directory contains the images used in the website.
+
 2.index.html: This is the main HTML file that contains the structure and content of the website.
+
 3.style.css: This is the default stylesheet file for the website.
+
 4.README.md: This is the readme file that you're reading now, which provides information about the template.
-5.HTML and CSS structure:
+
+HTML and CSS structure:
 
 The HTML and CSS files are structured in a way that makes it easy to customize the website. The HTML file has a basic layout that can be modified to fit SSET College's branding and content. The CSS file contains the styles for the website, including font styles, color schemes, and layout.
