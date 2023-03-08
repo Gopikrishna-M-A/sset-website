@@ -1,6 +1,6 @@
-**Welcome to the HTML and CSS template for SSET College's website! This repository contains an index.html file, a style.css file, and an images folder. This template is designed to provide a basic structure for SSET College's website, with HTML and CSS code that can be easily customized by other developers. Here is a brief guide on how to use this template:**
+# Welcome to the HTML and CSS template for SSET College's website! This repository contains an index.html file, a style.css file, and an images folder. This template is designed to provide a basic structure for SSET College's website, with HTML and CSS code that can be easily customized by other developers. Here is a brief guide on how to use this template:
 
-**Getting started:**
+## Getting started:
 
 **1.Fork the repository:** Start by forking this repository to your own account, so you can make changes without affecting the original code.
 
@@ -14,7 +14,7 @@
 
 **6.Preview the website:** Open any HTML file in a web browser to preview the website.
 
-**Directory Structure:**
+## Directory Structure:
 
 **The template has a basic directory structure that you can follow to organize your files. Here is a brief description of the directories and files in this template:**
 
@@ -26,6 +26,6 @@
 
 **4.README.md:** This is the readme file that you're reading now, which provides information about the template.
 
-**HTML and CSS structure:**
+## HTML and CSS structure:
 
 The HTML and CSS files are structured in a way that makes it easy to customize the website. The HTML file has a basic layout that can be modified to fit SSET College's branding and content. The CSS file contains the styles for the website, including font styles, color schemes, and layout.
