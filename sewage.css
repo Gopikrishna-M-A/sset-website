@@ -1,0 +1,7 @@
+.column{
+    float: left;
+    width: 50%;
+}
+.row:{
+    clear: both;
+}
