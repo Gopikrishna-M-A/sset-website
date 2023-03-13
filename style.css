@@ -22,24 +22,6 @@ body{
     display: none;
 }
 
-.red{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    background-color: rgba(255, 0, 0, 0.277);
-}
-.title-ex{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
-}
-.white-box-wrapper{
-    display: flex;
-
-}
-
-
 /* HEADER SECTION */
 .header-wrapper{
     width: 100%;
