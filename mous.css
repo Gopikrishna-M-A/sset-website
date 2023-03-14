@@ -1,0 +1,22 @@
+.title-mou{
+    opacity: 0.75;
+}
+
+.orange-bold-subtitles{
+    color: #D85805;
+    font-weight: bold;
+}
+
+.mou-bottom-list{
+    padding-left: 20px;
+}
+
+.white-box-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.mou-para7{
+    margin-top: 35px;
+}
