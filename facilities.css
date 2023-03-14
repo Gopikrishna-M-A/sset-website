@@ -1,0 +1,13 @@
+.title-facilities{
+    opacity: 0.75;
+}
+
+.facilities-bottom-list{
+    padding-left: 20px;
+}
+
+.white-box-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
