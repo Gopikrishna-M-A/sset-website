@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Righteous&display=swap');
 
 *{
@@ -455,7 +454,10 @@ body{
 
 =======
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+>>>>>>> b6fb4405a19875d0bd270d88067bb5d520ac7031
 
+<<<<<<< HEAD
+=======
 *{
     margin: 0;
     padding: 0;
@@ -690,3 +692,5 @@ body{
     font-size: 80%;
 }
 >>>>>>> 9a9b7e3ef4202c3cc6b9f4e0efe5bf4e9a6a08db
+
+>>>>>>> b6fb4405a19875d0bd270d88067bb5d520ac7031
