@@ -1,0 +1,28 @@
+.placement-recruiters{
+    opacity: 0.75;
+}
+
+.white-box-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.recruiters-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.recruiters-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* RIGHT SECTION */
+.right-section{
+    width: 100%;
+
+
+}

@@ -1,0 +1,15 @@
+.title-recruit-process{
+    opacity: 0.75;
+}
+
+.white-box-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.recruitment-process-image{
+    display: flex;
+    justify-content: center;
+}
