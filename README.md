@@ -10,7 +10,7 @@
 <p>The project includes the following folders and files:</p>
 
 <ul>
-<li><b><i>public:</i></b> This folder contains static files such as CSS, JavaScript, and images. It has two subfolders:
+<li><b><i>public:</i></b> This folder contains static files such as CSS, JavaScript, and images. 
 <ul>
 <li><b><i>css:</i></b> This folder contains CSS files.</li>
 <li><b><i>Javascript:</i></b> This folder contains JavaScript files.</li>
