@@ -1,0 +1,8 @@
+    <!-- HEAD PARTIAL -->
+    <%- include('../partials/head') %>
+
+    <!-- HEADER PARTIAL -->
+    <%- include('../partials/header') %>
+    
+    <!-- FOOTER PARTIAL -->
+    <%- include('../partials/footer') %>
