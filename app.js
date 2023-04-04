@@ -88,6 +88,11 @@ app.get("/alumni/startups", (req, res) => {
     res.render('alumni/startups')
 })
 
+//NAAC
+app.get("/naac", (req, res) => {
+    res.render('naac/naac')
+})
+
 
 app.listen(3000, (err) => {
     if (err) {

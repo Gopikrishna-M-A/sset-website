@@ -1,0 +1,56 @@
+.sub-point {
+    margin-left: 70px;
+    list-style-type: none;
+}
+
+#iqac-heading {
+    border-bottom: 3px solid #D85805;
+}
+
+#iqac-obj {
+    color: rgba(0, 0, 0, 0.650);
+    font-weight: 400;
+}
+
+li.sub-point:before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    background-image: url('/images/orangepoint.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+}
+
+.sub-head {
+    font-weight: 500;
+    color: #d85905;
+}
+
+.sub-section {
+    background-color: white;
+}
+
+.page-subheading {
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.650);
+    border-bottom: 2px solid #D85805;
+}
+
+.page-section {
+    padding: 10px;
+    margin: 40px 0;
+    border-radius: 10px;
+    background-color: #f3f3f3d3;
+}
+
+.page-section:first-child {
+    margin-top: none;
+}
+
+.page-section:last-child {
+    margin-bottom: none;
+}
