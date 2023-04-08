@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- HEAD PARTIAL -->
+    <%- include('../partials/head') %>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/about/aboutStyle.css" />
+  </head>
+
+  <body>
+    <!-- HEADER PARTIAL -->
+    <%- include('../partials/header') %>
+
+    <div class="container">
+      <div class="banner-img-conatiner">
+        <div class="banner-img-wrapper">
+          <img src="/images/college_image.png" alt="" class="banner-img" />
+          <div class="collegeNameHeadingBg"></div>
+          <h1 class="collegeNameHeading">
+            SCSM School of Engineering and Technology
+          </h1>
+        </div>
+      </div>
+
+      <div class="content-wrapper">
+             <!-- LEFT SECTION PARTIAL -->
+             <%- include('../partials/aboutNav') %>
+
+        <div class="right-section">
+          <div class="white-box-container">
+            <div class="white-box-wrapper">
+              <!-- write your code here -->
+              <h2 class="sectionHeading">
+                Policy Documents
+                <div class="sectionHeadingUnderline"></div>
+              </h2>
+
+              <div class="sectionContent aicteSec">
+                <a
+                  href="https://scmsgroup.org/sset/uploads/Policydocuments/Policy%20document%20on%20code%20of%20conduct%20&%20ethics.pdf"
+                  target="_blank"
+                >
+                  <div class="aicteLinkBox">
+                    <div class="linkIcon">
+                      <img src="/images/link_icon.png" alt="" srcset="" />
+                    </div>
+                    <div class="linkName">
+                      <p>Code of conduct & ethics</p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="https://scmsgroup.org/sset/uploads/Policydocuments/Policy%20Document%20on%20Inclusive%20Education.pdf"
+                  target="_blank"
+                >
+                  <div class="aicteLinkBox">
+                    <div class="linkIcon">
+                      <img src="/images/link_icon.png" alt="" srcset="" />
+                    </div>
+                    <div class="linkName">
+                      <p>Inclusive Education</p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="https://scmsgroup.org/sset/uploads/Policydocuments/Policy%20on%20use%20of%20Institutional%20Assets.pdf"
+                  target="_blank"
+                >
+                  <div class="aicteLinkBox">
+                    <div class="linkIcon">
+                      <img src="/images/link_icon.png" alt="" srcset="" />
+                    </div>
+                    <div class="linkName">
+                      <p>Use of Institutional Assets</p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="https://scmsgroup.org/sset/uploads/Policydocuments/Policy%20on%20use%20of%20Social%20Media.pdf"
+                  target="_blank"
+                >
+                  <div class="aicteLinkBox">
+                    <div class="linkIcon">
+                      <img src="/images/link_icon.png" alt="" srcset="" />
+                    </div>
+                    <div class="linkName">
+                      <p>Use of Social Media</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOOTER PARTIAL -->
+    <%- include('../partials/footer') %>
+  </body>
+</html>

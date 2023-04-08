@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- HEAD PARTIAL -->
+    <%- include('../partials/head') %>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/about/aboutStyle.css" />
+  </head>
+
+  <body>
+    <!-- HEADER PARTIAL -->
+    <%- include('../partials/header') %>
+
+    <div class="container">
+      <div class="banner-img-conatiner">
+        <div class="banner-img-wrapper">
+          <img src="/images/college_image.png" alt="" class="banner-img" />
+          <div class="collegeNameHeadingBg"></div>
+          <h1 class="collegeNameHeading">
+            SCSM School of Engineering and Technology
+          </h1>
+        </div>
+      </div>
+
+      <div class="content-wrapper">
+           <!-- LEFT SECTION PARTIAL -->
+           <%- include('../partials/aboutNav') %>
+
+        <div class="right-section">
+          <div class="white-box-container">
+            <div class="white-box-wrapper">
+              <!-- write your code here -->
+              <h2 class="sectionHeading">
+                Accreditation
+                <div class="sectionHeadingUnderline"></div>
+              </h2>
+
+              <div class="sectionContent">
+                <div class="accredWrapper">
+                  <div class="accredBox">
+                    <div class="accredHead">
+                      <img src="/images/nba.png" alt="" class="nbaIcon" />
+                      <h2>NBA Accreditation</h2>
+                    </div>
+                    <div class="accredBodyMid">
+                      <div class="accredDept">
+                        <ul>
+                          <li class="subPointText">
+                            <img
+                              src="/images/bullet_point.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <p><b>Computer Science & Engineering</b></p>
+                          </li>
+
+                          <li class="subPointText">
+                            <img
+                              src="/images/bullet_point.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <p><b>Civil Engineering</b></p>
+                          </li>
+
+                          <li class="subPointText">
+                            <img
+                              src="/images/bullet_point.png"
+                              alt=""
+                              srcset=""
+                            />
+                            <p><b>Mechanical Engineering</b></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="accredBodyFooter">
+                      
+                      <div class="accredDate">
+                        <p>29-05-2020 to 30-06-2023</p>
+                      </div>
+                      <div class="downloadIcon">
+                        <a
+                          href="https://www.scmsgroup.org/sset/downloads/Letter%20from%20NBA-2021.pdf"
+                          target="_blank"
+                          ><i class="bi bi-download"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accredBox">
+                    <div class="accredHead">
+                      <img src="/images/naac.png" alt="" class="nbaIcon" />
+                      <h2>NAAC Accreditation</h2>
+                    </div>
+                    <div class="accredBodyMid">
+                      <div class="accredDept">
+                        <ul>
+                            <li class="subPointText">
+                              <img
+                                src="/images/bullet_point.png"
+                                alt=""
+                                srcset=""
+                              />
+                              <p><a
+                          href="https://www.scmsgroup.org/sset/downloads/November%202015.pdf"
+                          target="_blank"
+                          >November 2015</a></p> 
+
+                            </li>
+                            <li class="subPointText">
+                              <img
+                                src="/images/bullet_point.png"
+                                alt=""
+                                srcset=""
+                              />
+                             <p><a
+                              href="https://www.scmsgroup.org/sset/downloads/September%202016.pdf"
+                              target="_blank"
+                              >September 2016</a></p> 
+                     
+                            </li>
+
+                          
+                    </div>
+                    </div>
+                    <div class="accredBodyFooter">
+                      
+                      <div class="accredDate">
+                        <p>29-05-2020 to 30-06-2023</p>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER PARTIAL -->
+    <%- include('../partials/footer') %>
+  </body>
+</html>
