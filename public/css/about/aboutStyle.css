@@ -1,0 +1,968 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/* common  */
+
+.banner-img-conatiner {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-img-wrapper {
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+  height: 27vw;
+  border-radius: 40px;
+  position: relative;
+}
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.collegeNameHeading {
+  position: absolute;
+  top: 80%;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 40px;
+}
+.semibold {
+  font-weight: 500;
+}
+.collegeNameHeadingBg {
+  position: absolute;
+  width: 100%;
+  height: 73px;
+  background-color: rgba(0, 0, 0, 0.41);
+  top: 80%;
+  /* border-radius: 40px; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.sectionHeading {
+  width: fit-content;
+  font-size: 27px;
+  font-weight: 500;
+  padding-left: 3px;
+}
+.sectionHeadingUnderline {
+  width: 100%;
+  height: 2px;
+  background-color: #d85805;
+}
+.sectionContent {
+  margin-top: 20px;
+  line-height: 0.9cm;
+  text-align: justify;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 16px;
+}
+
+/* profile page */
+
+.profileVideo {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.profileVideo iframe {
+  border-radius: 4px;
+  aspect-ratio: 16/9;
+}
+
+/* vision and Misiion page */
+
+.sectionContentBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(223, 219, 217, 0.2);
+  border: 1px solid rgba(216, 88, 5, 0.27);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.verticalLine {
+  height: 70px;
+  width: 2px;
+  background-color: #faa56d71;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contentSecTitle {
+  color: #d85805;
+  font-size: 20px;
+}
+.contentSecPara {
+  color: rgba(0, 0, 0, 0.801);
+  font-size: 17px;
+  line-height: 0.7cm;
+}
+
+.downloadBtnBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.downloadBtnBox a {
+  text-decoration: none;
+}
+.downloadBtn {
+  padding: 1px 10px 1px;
+  border: 1px solid #d85805;
+  margin: 1px 10px 1px;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.downloadBtn:hover {
+  color: #d85805;
+  background-color: white;
+}
+
+/* objectives page */
+
+.sectionsubHeading {
+  font-size: 20px;
+  font-weight: 400;
+}
+.subPointText {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.subPointText img {
+  width: 15px;
+  height: 15px;
+  margin-top: 9px;
+}
+.subPointText p {
+  margin-left: 10px;
+  width: 100%;
+  text-align: justify;
+}
+
+li b {
+  font-weight: 600;
+}
+
+li a {
+  color: #f08e4d;
+}
+li a:hover {
+  color: #d85805;
+}
+
+/* recog & affliation page */
+
+.titleGrayBox {
+  background-color: rgba(217, 217, 217, 0.35);
+  padding: 5px 0px 5px 10px;
+  width: 50%;
+}
+
+.pdfBox {
+  border: 1px solid #e25241;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.2s;
+  margin: 20px 10px 0px;
+}
+.pdfBox img {
+  width: 100px;
+  height: 90px;
+}
+.pdfBox div {
+  font-size: 12px;
+  background-color: rgba(226, 82, 65, 0.1);
+  padding: 0px 5px 0px;
+  color: #e25241;
+  font-weight: 600;
+}
+
+.pdfBox:hover {
+  background-color: rgba(226, 82, 65, 0.1);
+}
+
+.rowPdfBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: safe;
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+/* about_management_Page */
+
+.profileDetails {
+  width: 80%;
+  margin-top: 20px;
+}
+.profName {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.ProfNameSub {
+  font-size: 18px;
+}
+
+.ProfNameSubTltle {
+  margin-top: 15px;
+}
+.profDetails {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 0.7cm;
+}
+
+.profPara {
+  margin-top: 30px;
+}
+.profPara .profImg {
+  float: right;
+  margin: 10px;
+}
+.profParaContent {
+  text-align: justify;
+  padding: 10px;
+}
+.adminTeam {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.adminTeamImage img {
+  height: 430px;
+  /* width: 640px; */
+  border-radius: 3px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.adminImages {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.adminImg {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.imgTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgTitleName {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 0.5cm;
+  text-align: center;
+}
+.imgTitleResgn {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.imgDiv img {
+  width: 230px;
+  height: 251px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* directors profile page */
+
+.profileCard {
+  display: flex;
+  flex-direction: row;
+  background-color: #f7f7f7;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.profileCard img {
+  width: 340px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.profileCardLeft {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.profileCardLeft h3 {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.profileCardLeft h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.viewProfBtn {
+  font-size: 15px;
+  background-color: white;
+  color: #d85805;
+  padding: 1px 20px 1px;
+  border: 1px solid #d85805;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.viewProfBtn:hover {
+  background-color: #d85805;
+  color: white;
+}
+
+/* awards page */
+
+.rankHoldTitle {
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #d85805;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.rankHoldTitle h2 {
+  color: white;
+  font-weight: 500;
+}
+
+.rankSection {
+  width: 100%;
+  background-color: #fff5ee;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.rankSectionName {
+  background-color: rgba(216, 88, 5, 0.25);
+  padding: 2px 20px 2px;
+  border-radius: 20px;
+}
+.rankSectionName p {
+  color: #d85805;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.rankSectionCards {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rankCard {
+  height: 250px;
+  width: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.6cm;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.rankCardImg {
+  height: 150px;
+  width: 135px;
+}
+.rankCardImg img {
+  height: 100%;
+  width: 100%;
+}
+
+.rankCardTitle {
+  width: 100%;
+  background-color: #d85805;
+  padding: 1px 10px 1px;
+}
+.rankCardTitle p {
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.rankCardName {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* grievence page */
+
+.GrievContactSec {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.veticalLineGrieveSec {
+  height: 400px;
+  width: 2px;
+  background-color: #faa56d71;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rightGrievSec {
+  width: 40%;
+}
+.leftGrievSec {
+  width: 53%;
+}
+
+.GrievContactSec h2 {
+  text-align: center;
+  color: #d85805;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.links a {
+  margin: 3px;
+}
+
+/* SC/ST page */
+
+.SCSTMain {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.SCSTBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0px 10px;
+}
+.SCSTResgn {
+  background-color: rgba(216, 89, 5, 0.589);
+  padding: 2px 10px 2px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SCSTResgn p {
+  color: #ffffff;
+}
+
+.SCSTName {
+  background-color: rgba(226, 82, 65, 0.05);
+  padding: 2px 10px 2px;
+  border: 1px solid rgba(216, 88, 5, 0.5);
+  width: 60%;
+}
+.SCSTName hr {
+  border: 0.5px solid #d8590527;
+}
+.SCSTName:hover {
+  background-color: rgba(226, 81, 65, 0.13);
+}
+
+/* AICTE essen. Page */
+
+.aicteLinkBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(226, 82, 65, 0.05);
+  width: 100%;
+  padding: 5px 10px 5px;
+  border: 1px solid rgba(216, 88, 5, 0.5);
+  border-radius: 10px;
+  margin: 10px 0px 10px;
+}
+.linkIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #d85805;
+}
+
+.linkIcon img {
+  width: 40px;
+  height: 40px;
+}
+
+.linkName p {
+  margin-left: 20px;
+  color: #d85805;
+  font-weight: 500;
+}
+
+.aicteLinkBox:hover {
+  background-color: rgba(226, 81, 65, 0.103);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.aicteSec {
+  margin-top: 40px;
+}
+
+/* Accreditation Page */
+.accredWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.accredBox {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.accredBox:hover {
+  background-color: #f8f8f8;
+}
+.accredIcon,
+.accredDept {
+  padding-right: 20px;
+}
+.accredHead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.accredHead h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.nbaIcon {
+  width: 100px;
+  height: 100px;
+}
+.accredBodyFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.accredDate p,
+a {
+  color: #d85805;
+  font-weight: 500;
+}
+
+.downloadIcon {
+  border: 1px solid #d85805;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 2px 10px 2px;
+  font-size: 12px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.downloadIcon:hover {
+  background-color: #ebd9cd;
+}
+.downloadIcon i {
+  color: #d85805;
+}
+
+/* AntiRagging Page */
+
+.antiRagBox {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 10px 20px 10px;
+  background-color: #fcbe9546;
+}
+.antiRagBox h2 {
+  color: #d85805;
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.antiRagBox h1 {
+  color: #d85805;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.antiRagExtra {
+  /* list-style: none; */
+  display: flex;
+  flex-direction: column;
+}
+.innerUl {
+  margin-left: 40px;
+  list-style: disc;
+}
+
+.innerUlExtra {
+  margin-left: 50px;
+}
+
+/* Responsive Code */
+
+/* Large */
+@media (width<1200px) {
+}
+
+/* Medium */
+@media (width<992px) {
+  .collegeNameHeading {
+    font-size: 30px;
+  }
+
+  .collegeNameHeadingBg {
+    height: 53px;
+  }
+
+  .sectionHeading {
+    font-size: 23px;
+  }
+
+  .contentSecTitle {
+    font-size: 18px;
+  }
+  .contentSecPara {
+    font-size: 16px;
+  }
+  .sectionsubHeading {
+    font-size: 18px;
+  }
+  .profName {
+    font-size: 19px;
+  }
+  .profDetails {
+    font-size: 15px;
+  }
+
+  .adminTeamImage img {
+    height: 330px;
+  }
+
+  .imgDiv img {
+    width: 190px;
+    height: 230px;
+  }
+
+  .imgTitleName {
+    font-size: 14px;
+  }
+  .imgTitleResgn {
+    font-size: 12px;
+  }
+
+  .profileCard img {
+    width: 240px;
+    height: 170px;
+  }
+
+  .profileCardLeft h3 {
+    font-size: 18px;
+  }
+
+  .profileCardLeft h4 {
+    font-size: 14px;
+  }
+
+  .ProfNameSub {
+    font-size: 17px;
+  }
+
+  .GrievContactSec {
+    flex-direction: column;
+  }
+
+  .veticalLineGrieveSec {
+    height: 1px;
+    width: 100%;
+    margin: 10px 0px 10px;
+  }
+
+  .rightGrievSec {
+    width: 100%;
+  }
+  .leftGrievSec {
+    width: 100%;
+  }
+  .GrievContactSec h2 {
+    text-align: left;
+  }
+
+  .antiRagBox h2 {
+    font-size: 17px;
+  }
+  .antiRagBox h1 {
+    font-size: 20px;
+  }
+  .accredWrapper {
+    flex-wrap: wrap;
+  }
+}
+
+/* Small */
+@media (width<768px) {
+  .collegeNameHeading {
+    font-size: 20px;
+  }
+  .collegeNameHeadingBg {
+    height: 43px;
+  }
+
+  .sectionHeading {
+    font-size: 20px;
+  }
+
+  .sectionContent {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .contentSecTitle {
+    font-size: 16px;
+  }
+  .contentSecPara {
+    font-size: 15px;
+  }
+
+  .downloadBtn {
+    font-size: 11px;
+  }
+
+  .sectionContentBox {
+    flex-direction: column;
+  }
+  .verticalLine {
+    height: 1px;
+    width: 90%;
+  }
+  .iconDiv img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .sectionsubHeading {
+    font-size: 17px;
+  }
+
+  .subPointText p {
+    font-size: 15px;
+  }
+
+  .pdfBox {
+    padding: 1px;
+    margin: 10px 6px 0px;
+  }
+  .pdfBox img {
+    width: 80px;
+    height: 70px;
+  }
+  .pdfBox div {
+    font-size: 12px;
+    background-color: rgba(226, 82, 65, 0.1);
+    padding: 0px 5px 0px;
+    color: #e25241;
+    font-weight: 600;
+  }
+  .profImg img {
+    width: 150px;
+    height: 190px;
+  }
+
+  .adminTeamImage img {
+    height: 280px;
+  }
+
+  .imgDiv img {
+    width: 160px;
+    height: 190px;
+  }
+
+  .imgTitleName {
+    font-size: 14px;
+    width: 130px;
+  }
+  .imgTitleResgn {
+    font-size: 12px;
+  }
+
+  .profileCard {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ProfNameSub {
+    font-size: 16px;
+  }
+}
+
+/* Extra small */
+@media (width<576px) {
+.right-section{
+  padding-top: 5px;
+}
+
+  .collegeNameHeading {
+    font-size: 13px;
+  }
+
+  .collegeNameHeadingBg {
+    height: 30px;
+  }
+  .banner-img-wrapper {
+    height: 35vw;
+  }
+  .sectionHeading {
+    font-size: 18px;
+  }
+
+  .contentSecTitle {
+    font-size: 15px;
+  }
+  .contentSecPara {
+    font-size: 14px;
+  }
+
+  .sectionsubHeading {
+    font-size: 15px;
+  }
+  .titleGrayBox {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .profName {
+    font-size: 16px;
+  }
+  .profDetails {
+    font-size: 14px;
+  }
+  .profImg img {
+    width: 140px;
+    height: 180px;
+  }
+  .profPara {
+    display: flex;
+    flex-direction: column;
+  }
+  .adminTeam {
+    margin-top: 5px;
+  }
+  .adminTeamImage img {
+    height: 170px;
+  }
+  .rankHoldTitle {
+    height: 30px;
+  }
+  .rankHoldTitle h2 {
+    font-size: 17px;
+  }
+  .rankSectionName p {
+    font-size: 14px;
+  }
+  .SCSTBox {
+    display: flex;
+    flex-direction: column;
+  }
+  .SCSTResgn,
+  .SCSTName {
+    width: 100%;
+    font-size: 14px;
+  }
+  .antiRagBox {
+    height: 100%;
+  }
+  .antiRagBox h2 {
+    font-size: 15px;
+  }
+  .antiRagBox h1 {
+    font-size: 17px;
+  }
+  .linkName p {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .linkIcon,
+  .linkIcon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .nbaIcon {
+    width: 80px;
+    height: 80px;
+  }
+  .accredHead {
+    flex-direction: column;
+  }
+  .accredHead h2 {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .aicteTitleH2{
+    font-size: 14px;
+  }
+}
