@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- HEAD PARTIAL -->
+    <%- include('../partials/head') %>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/about/aboutStyle.css" />
+  </head>
+
+  <body>
+    <!-- HEADER PARTIAL -->
+    <%- include('../partials/header') %>
+
+    <div class="container">
+      <div class="banner-img-conatiner">
+        <div class="banner-img-wrapper">
+          <img src="/images/college_image.png" alt="" class="banner-img" />
+          <div class="collegeNameHeadingBg"></div>
+          <h1 class="collegeNameHeading">
+            SCSM School of Engineering and Technology
+          </h1>
+        </div>
+      </div>
+
+      <div class="content-wrapper">
+        <!-- LEFT SECTION PARTIAL -->
+        <%- include('../partials/aboutNav') %>
+
+        <div class="right-section">
+          <div class="white-box-container">
+            <div class="white-box-wrapper">
+              <!-- write your code here -->
+              <h2 class="sectionHeading">
+                Institute Profile
+                <div class="sectionHeadingUnderline"></div>
+              </h2>
+
+              <div class="sectionContent">
+                SCMS School of Engineering and Technology (SSET) is envisaged as
+                a premier institution offering technology related education of
+                exceptional quality to students by developing their total
+                personality with due emphasis on ethical values and preparing
+                them to meet the growing challenges of the industry and diverse
+                societal needs of the institution. The SCMS School of
+                Engineering & Technology (SSET), promoted by the SCMS Group of
+                Educational Institutions, has been in the forefront of providing
+                quality professional education in Engineering & Technology since
+                2001. The SSET has established state of the art facilities on a
+                sprawling 29 acre campus at Karukutty in Ernakulam District.
+                SSET is one among the first ten colleges to be set up in the
+                State under the private self-financing scheme. Right from the
+                beginning SSET concentrated on providing quality education in a
+                highly disciplined environment. This has paid rich dividends
+                over the past years as is evident from the preference of
+                students to join the College.
+              </div>
+
+              <div class="profileVideo">
+                <iframe
+                  width="100%"
+                  src="https://www.youtube.com/embed/TUJaYZg_sf4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER PARTIAL -->
+    <%- include('../partials/footer') %>
+  </body>
+</html>
